@@ -59,7 +59,7 @@ Examples:
 
 1. Clone this repository:  
    ```powershell
-   git clone https://github.com/your-org/AutoDeployWinSOE.git
+   git clone https://github.com/justanotherkiwi/AutoDeployWinSOE.git
    cd AutoDeployWinSOE
 
 Place your per-app installer scripts in the same directory, following the naming convention.
@@ -105,7 +105,7 @@ sentinelone noarch  0        Success   3.02       sentinelone.log
 All outputs are written under:
 C:\Windows\Temp\AutomatedSOE\<RunId>\
 
-Tanscript → AutomatedSOE_transcript.txt
+Transcript → AutomatedSOE_transcript.txt
 Master log → AutomatedSOE_log.txt
 Per-script logs → <appname>_<arch>.log
 Summaries → AutomatedSOE_Summary.csv and AutomatedSOE_Summary.json
